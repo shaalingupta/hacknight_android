@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#24D39A"
+    android:orientation="vertical"
+    android:stretchColumns="1"
+    android:isScrollContainer="true">
+
+    <TableRow android:padding="5dip">
+
+        <EditText
+            android:id="@+id/empID"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="#fff"
+            android:hint="EmployeeId"
+            android:padding="5dp"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/submit"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#007c86"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:clickable="true"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:text="Are you Working Remotely?"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/remote_work"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:background="#fff"
+            android:hint="Yes/No"
+            android:padding="5dp"
+            android:textColor="#000" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Have you faced WOrk Intefere?"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/work_interfere"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:hint="Yes/No"
+            android:padding="5dp"
+            android:textColor="#000" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Any Family History With Illness?"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/family_history"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:hint="Yes/No"
+            android:padding="5dp"
+            android:textColor="#000" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Attended Wellness Program?"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/wellness_program"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:hint="Yes/No"
+            android:padding="5dp"
+            android:textColor="#000" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Seek Anyone Help?"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/seek_help"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:hint="Yes/No"
+            android:padding="5dp"
+            android:textColor="#000" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Any Mental Health Issues?"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/mental_health_consequence"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:hint="Yes/No"
+            android:padding="5dp"
+            android:textColor="#000" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Any Physical Health Issues?"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/phys_health_consequence"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:hint="Yes/No"
+            android:padding="5dp"
+            android:textColor="#000" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Does your Supervisior know about it?"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/supervisor"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:hint="Yes/No"
+            android:padding="5dp"
+            android:textColor="#000" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Attended Mental Health Interview?"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/mental_health_interview"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:hint="Yes/No"
+            android:padding="5dp"
+            android:textColor="#000" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Attended Physical Health Interview?"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/phys_health_interview"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:hint="Yes/No"
+            android:padding="5dp"
+            android:textColor="#000" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Observable Consequence"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/obs_consequence"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:hint="Yes/No"
+            android:padding="5dp"
+            android:textColor="#000" />
+    </TableRow>
+    <TableRow>
+
+        <EditText
+            android:id="@+id/comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:hint="Comments"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#000" />
+    </TableRow>
+
+
+</TableLayout>
