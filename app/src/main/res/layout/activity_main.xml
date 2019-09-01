@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#24D39A"
+    android:background="@mipmap/images2"
     android:orientation="vertical"
     android:stretchColumns="1"
     android:isScrollContainer="true">
@@ -24,9 +24,10 @@
             android:id="@+id/submit"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="#007c86"
+            android:background="#2a439a"
             android:text="Submit"
             android:textColor="#fff"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:clickable="true"
             android:textSize="20sp"
             android:textStyle="bold" />
